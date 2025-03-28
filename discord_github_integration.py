@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 GITHUB_REPO = "Jobinthomas123/Virtual-songbook"
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("GH_TOKEN")
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Define bot prefix and intents
